@@ -204,6 +204,14 @@ docker run -p 3000:3000 page-pulse
 ```
 
 ---
+# Scalable Architecture Design
+
+The scalable system design documentation is available here:
+
+- [Architecture Document](docs/ARCHITECTURE_DOCUMENT.md)
+- [Technology Decision Record](docs/TECHNOLOGY_DECISION_RECORD.md)
+- [Failure Mode Analysis](docs/FAILURE_MODE_ANALYSIS.md)
+- [Observability and Rollback Plan](docs/OBSERVABILITY_AND_ROLLBACK.md)
 
 ## Footer Credit
 
