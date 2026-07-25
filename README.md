@@ -12,11 +12,7 @@ Built for Digital Heroes Training Task
 
 ## Live URL
 
-https://page-pulse-grmx.onrender.com
-
-Or
-
-[Live Demo](https://page-pulse-grmx.onrender.com)
+[https://page-pulse-grmx.onrender.com](https://page-pulse-grmx.onrender.com)
 
 ---
 
@@ -121,21 +117,16 @@ Example:
 
 ---
 
-# Environment Variables
+## Environment Variables
 
-Create a `.env` file:
+Copy `.env.example` to `.env` and update the values as needed.
 
 ```env
 PORT=3000
-
 REQUEST_TIMEOUT=5000
-
 CACHE_TTL=300
-
 CONCURRENCY_LIMIT=10
-
 RATE_LIMIT_WINDOW_MS=60000
-
 RATE_LIMIT_MAX=100
 ```
 
