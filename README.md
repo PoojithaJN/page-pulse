@@ -1,5 +1,11 @@
 # Page Pulse API
 
+![Node.js](https://img.shields.io/badge/Node.js-24-green)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![Express](https://img.shields.io/badge/Express-5-lightgrey)
+![Jest](https://img.shields.io/badge/Jest-Tests_Passing-success)
+![Docker](https://img.shields.io/badge/Docker-Supported-blue)
+
 Production-grade URL Audit Service that analyzes websites and provides performance and metadata insights.
 
 Built for Digital Heroes Training Task
@@ -7,6 +13,10 @@ Built for Digital Heroes Training Task
 ## Live URL
 
 https://page-pulse-grmx.onrender.com
+
+Or
+
+[Live Demo](https://page-pulse-grmx.onrender.com)
 
 ---
 
@@ -36,7 +46,8 @@ https://page-pulse-grmx.onrender.com
 - Cheerio
 - Pino Logger
 - Jest
-- Render Deployment
+- Docker
+- Render
 
 ---
 
@@ -45,7 +56,9 @@ https://page-pulse-grmx.onrender.com
 ## 1. Health Check
 
 ### GET `/health`
+**Response:** `200 OK`
 
+Returns the health status of the service.
 Checks service availability.
 
 ### Response
@@ -62,6 +75,13 @@ Checks service availability.
 ## 2. URL Audit
 
 ### POST `/audit`
+
+### Possible responses:
+
+- `200 OK`
+- `400 Bad Request`
+- `429 Too Many Requests`
+- `500 Internal Server Error`
 
 Audits a given website URL.
 
@@ -215,6 +235,4 @@ The scalable system design documentation is available here:
 
 ## Footer Credit
 
-Built for Digital Heroes Training Task
-
-https://digitalheroesco.com
+Built for [Digital Heroes Training Task](https://digitalheroesco.com)
